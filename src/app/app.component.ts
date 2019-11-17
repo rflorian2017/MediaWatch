@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'media-item-cli';
+  title = 'Media Watch';
+  firstMovie = {
+  title: 'Dumbo',
+  category: 'Animation',
+  year: 2019,
+  watched: false,
+  actors: [
+    'elephant',
+    'little boy'
+  ]
+  };
 }
