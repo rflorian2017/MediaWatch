@@ -7,14 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Media Watch';
-    firstMovie = {
-    title: 'Dumbo',
-    category: 'Animation',
-    year: 2019,
-    watched: false,
-      actors: [
-      'elephant',
-      'little boy'
-  ]
-  };
+
 }
